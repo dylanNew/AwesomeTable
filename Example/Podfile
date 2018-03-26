@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AwesomeTable_Example' do
+  pod 'AwesomeTable', :path => '../'
+
+  target 'AwesomeTable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
