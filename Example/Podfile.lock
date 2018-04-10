@@ -1,0 +1,16 @@
+PODS:
+  - AwesomeTable (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeTable (from `../`)
+
+EXTERNAL SOURCES:
+  AwesomeTable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AwesomeTable: ff9539bb81f708cae681398463221a224fc6571d
+
+PODFILE CHECKSUM: 6cb9f43637545345b1efe25b3bfca836c2f51638
+
+COCOAPODS: 1.5.0

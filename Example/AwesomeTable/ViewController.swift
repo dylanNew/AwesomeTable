@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import AwesomeTable
 
-class ViewController: UIViewController {
+class ViewController: AwesomeTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        form +++
+            Section()
+            <<< LabelRow(title: "First")
+            .onSelected { row in
+                print(row)
+            }
+            <<< LabelRow(title: "Second")
+        self.tableView.reloadData()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
 }
-
