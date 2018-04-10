@@ -1,16 +1,26 @@
 PODS:
   - AwesomeTable (0.1.0)
+  - PullToRefresher (3.0.2)
 
 DEPENDENCIES:
   - AwesomeTable (from `../`)
+  - PullToRefresher (from `https://github.com/dylanNew/PullToRefresh.git`)
 
 EXTERNAL SOURCES:
   AwesomeTable:
     :path: "../"
+  PullToRefresher:
+    :git: https://github.com/dylanNew/PullToRefresh.git
+
+CHECKOUT OPTIONS:
+  PullToRefresher:
+    :commit: 0ee16d1e53fa5ae36b0bfc5cf407bdfaa9f63d7c
+    :git: https://github.com/dylanNew/PullToRefresh.git
 
 SPEC CHECKSUMS:
-  AwesomeTable: ff9539bb81f708cae681398463221a224fc6571d
+  AwesomeTable: cac027d8c2e735f4edfaf90182755db90c3b5aea
+  PullToRefresher: 25a367871a70b1da0b28e8e7cecceb4ef04f5f56
 
-PODFILE CHECKSUM: 6cb9f43637545345b1efe25b3bfca836c2f51638
+PODFILE CHECKSUM: 1cf58b51397462c110846acd2df4fb42b60b31fc
 
 COCOAPODS: 1.5.0

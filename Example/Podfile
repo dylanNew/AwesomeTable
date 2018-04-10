@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'AwesomeTable_Example' do
+  pod 'PullToRefresher', :git => 'https://github.com/dylanNew/PullToRefresh.git'
   pod 'AwesomeTable', :path => '../'
 
   target 'AwesomeTable_Tests' do

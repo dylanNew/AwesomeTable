@@ -64,7 +64,8 @@ open class AwesomeTableViewController: UITableViewController {
         return UITableViewAutomaticDimension
     }
     
-    override open func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override open func tableView(_ tableView: UITableView, titleForFooterInSection
+        section: Int) -> String? {
         let section = form[section]
         if let footer = section.footer {
             return footer.title

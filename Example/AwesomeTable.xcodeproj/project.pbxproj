@@ -300,10 +300,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeTable_Example/Pods-AwesomeTable_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AwesomeTable/AwesomeTable.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToRefresher/PullToRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeTable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
